@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/augusto/workspace/starsona/magic-links/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/augusto/workspace/starsona/magic-links/src/pages"
+      }
+    ],
+    "/Users/augusto/workspace/starsona/magic-links/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/augusto/workspace/starsona/magic-links/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/augusto/workspace/starsona/magic-links"
+  ],
+  "paths": {
+    "ROOT": "/Users/augusto/workspace/starsona/magic-links",
+    "SRC": "/Users/augusto/workspace/starsona/magic-links/src",
+    "DIST": "/Users/augusto/workspace/starsona/magic-links/dist",
+    "ASSETS": "/Users/augusto/workspace/starsona/magic-links/dist",
+    "PLUGINS": "/Users/augusto/workspace/starsona/magic-links/plugins",
+    "TEMP": "/Users/augusto/workspace/starsona/magic-links/tmp",
+    "ARTIFACTS": "/Users/augusto/workspace/starsona/magic-links/artifacts",
+    "PUBLIC": "/Users/augusto/workspace/starsona/magic-links/public",
+    "NODE_MODULES": "/Users/augusto/workspace/starsona/magic-links/node_modules",
+    "EXCLUDE_MODULES": "/Users/augusto/workspace/starsona/magic-links/node_modules",
+    "PACKAGE": "/Users/augusto/workspace/starsona/magic-links/package.json",
+    "HTML_TEMPLATE": "/Users/augusto/workspace/starsona/magic-links/dist/index.html",
+    "STATIC_DATA": "/Users/augusto/workspace/starsona/magic-links/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
