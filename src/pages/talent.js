@@ -19,7 +19,7 @@ export default function Talent() {
       <ul>
         {talent.map(star => (
           <li key={star.id}>
-            <Link to={`/talent/${star.id}/`}>{`${star.first_name} ${star.last_name}`}</Link>
+            <Link to={`/talent/${star.id}/`}>{`${(star.nick_name && star.nick_name.length) > 0 ? star.nick_name : `${star.first_name} ${star.last_name}`} $ ${star.celebrity_data ? star.celebrity_data.rate : 'N/A'}`}</Link>
           </li>
         ))}
       </ul>
